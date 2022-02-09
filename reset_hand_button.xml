@@ -1,0 +1,5 @@
+<button
+    onClick="resetHand"
+    width="140"
+    height="140">Reset Hand
+</button>
