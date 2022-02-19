@@ -1,4 +1,8 @@
 function refillHand(player)
+  --[[
+  Refills all player hands following the discard stage of each hand
+  ]]--
+  
   local hand_in_progress = Global.getVar("HAND_IN_PROGRESS")
   local hands_refilled = Global.getVar("HANDS_REFILLED")
 
